@@ -14,3 +14,7 @@
   float: left;
   text-transform: uppercase;
 }
+.menu{
+  float: right;
+  line-height: 100px;
+}
