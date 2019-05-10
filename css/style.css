@@ -9,28 +9,12 @@ body {
 	  background-color: #497bad;
       word-wrap: break-word;
  }
- h2,h3 {
-    padding-top: 1em;
-	  text-align: center;
-	  color: #34495e;
- }
-  a{
-    color: white;
- }
-  ul{
-    padding-left: 1em;
- }
-  #cover {
-	  display: block;
-	  margin: 0 auto;
-	  max-width: 60%;
- }
-  #me{
-    border-radius: 10px;
-	  max-width: 60%;
- }
- nav .column {
-    margin: 0em;
+ .nav-item{
+     text-decoration: none;
+     color: azure;
+     float: right;
+     padding:0.8em;
+     
  }
  #footer {
     -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
