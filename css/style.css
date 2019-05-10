@@ -14,8 +14,23 @@ body {
      color: azure;
      float: right;
      padding:0.8em;
-     
  }
+
+ a{
+    color: white;
+ }
+ a{
+    background-color: transparent ;
+ }
+ *, *:before, *:after {
+    box-sizing: border-box;
+ }
+ #navbar{
+    text-transform: uppercase;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+ }
+
  #footer {
     -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
