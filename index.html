@@ -9,14 +9,21 @@
 	</head>
 	<body>
             <div class="header">
-                    <h2 id="clock">Clock</h2>
-                        <input >
-							<li><a href="./index.html">Home</a></li>
-							<li><a href="./intro.html">Intro</a></li>
-							<li><a href="#work">Work</a></li>
-							<li><a href="#about">About</a></li>
+                    <h2 class="clock">Clock</h2>
+						<input type="checkbox" id="chk">
+						<label for="chk" class="show-menu-btn">
+							<i class="fas fa-ellipsis-h"></i>
+						</label>
+						<ul class="menu">
+								<a href="./index.html">Home</a>
+								<a href="./intro.html">Intro</a>
+								<a href="#work">Work</a>
+								<a href="#about">About</a>
+								<lable for="chk" class="hide-menu-btn">
+									<i class="fas fa-time"></i>
+								</lable>
+						</ul>
 					</div>
-				</div>
 				<div id="toggle" class="toggle">
 						<span id="line1" class="line"></span>
 						<span id="line2" class="line"></span>
