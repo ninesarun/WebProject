@@ -25,11 +25,7 @@ body {
  *, *:before, *:after {
     box-sizing: border-box;
  }
- #navbar{
-    text-transform: uppercase;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
- }
+ 
 
  #footer {
     -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
