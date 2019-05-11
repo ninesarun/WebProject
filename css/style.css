@@ -68,6 +68,10 @@
     top: 0;
     text-align: center;
     padding: 80px 0px;
-    line-height: nornmal;
+    line-height: normal;
   }
+.menu a{
+  display: block;
+  padding: 10px;
+}
 }
