@@ -25,5 +25,8 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 5px;
-
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
 }
