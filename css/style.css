@@ -1,3 +1,10 @@
+body{
+  background-image: url(/WebProject/image/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 *{
   margin: 0;
   padding: 0;
