@@ -28,5 +28,8 @@
   transition: 0.4s;
 }
 .show-menu-btn,.hide-menu-btn{
-  transition: 0.4s;
+  transition: 1s;
+}
+.menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+  color: #3498db;
 }
