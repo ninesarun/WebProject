@@ -27,8 +27,18 @@
   padding: 0 5px;
   transition: 0.4s;
 }
+
 .show-menu-btn,.hide-menu-btn{
-  transition: 1s;
+  transition: 0.4s;
+  font-size: 35px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
 }
 .menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
   color: #3498db;
