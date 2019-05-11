@@ -43,3 +43,8 @@
 .menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
   color: #3498db;
 }
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
