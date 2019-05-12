@@ -61,7 +61,7 @@ body{
   text-align: justify;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
   .show-menu-btn,.hide-menu-btn{
     display: block;
   
