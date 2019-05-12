@@ -3,35 +3,30 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Welocome to My page</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
 		<link rel="stylesheet" href="./css/style.css" />
 		<script src="./script/java.js"></script>
-    </head>
-    <body>
-        <div id="wrapper">
-			<header id="header">
-				<div class="content">
-					<div class="inner">
-						<h1>Welcome to My page</h1>
-						
-					</div>
-				</div>
-				<nav>
-					<ul>
-                        <li><a href="./index.html">Home</a></li>
-						<li><a href="./intro.html">Intro</a></li>
-						<li><a href="#work">Work</a></li>
-						<li><a href="#about">About</a></li>
-					</ul>
-				</nav>
-			</header>
-        </div>
+	</head>
+	<body>
+        <div class="header">
+            <h2 class="clock">Clock</h2>
+			<input type="checkbox" id="chk">
+			<label for="chk" class="show-menu-btn">
+				<i class="fas fa-ellipsis-h"></i>
+			</label>
 			
-                <!-- Footer -->
-                    <footer id="footer">
-                        <p class="footer2">&copy; Sarun.Boopeng</p>
-                    </footer>
-        
-        
-            </body>
-        </html>
+			<ul class="menu">
+				<a href="./index.html">HOME</a>
+				<a href="./intro.html">INTRO</a>
+				<a href="#work">WORK</a>
+				<a href="#about">ABOUT</a>
+				<label for="chk" class="hide-menu-btn">
+					<i class="fas fa-times"></i>	
+				</label>
+			</ul>
+		</div>
+		<div class="bg"></div>
+	</body>
+</html>
