@@ -81,8 +81,14 @@ body{
 @media screen and (max-width: 550px){
   .content1 h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+  }
+  .content1 p{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 17px;
   }
   .show-menu-btn,.hide-menu-btn{
     display: block;
