@@ -87,8 +87,13 @@ p{
 .fix2{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-
+  justify-content: space-evenly;
+}
+.row-2{
+  width: 45%;
+}
+.row-3{
+  width: 40%;
 }
 img{
   display: block;
@@ -103,13 +108,13 @@ img{
 }
 .about{
   color: #fff;
-  padding-top: 4em;
+  padding-top: 2em;
 
 }
 .me,.int{
   margin: 0px 30px; 
-  padding-top: 3em;
-  text-align: left;
+  padding-top: 4em;
+  text-align: center;
   color: #fff;
 }
 @media screen and (max-width: 550px) and (max-width: 900px) {
@@ -124,7 +129,7 @@ img{
   }
   .menu {
     position: fixed;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     background: #333;   
     right: -100%;
@@ -146,5 +151,9 @@ img{
   }
   #chk:checked ~ .menu{
     right: 0;
+  }
+  #pt{
+    border-radius: 10px;
+    max-width: 70%;
   }
 }
