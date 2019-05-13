@@ -1,0 +1,44 @@
+html,body{
+    background-image: url(/WebProject/image/hbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .content{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    border: 2px solid #f1f1f1;
+    max-width: 55%;
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content p{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+  }
+  h1{
+  
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+  @media screen and (max-width: 550px){
+    .content{
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        border: 2px solid #f1f1f1;
+        max-width: 55%;
+        position: absolute;
+        padding: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+  }
