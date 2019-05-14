@@ -88,6 +88,7 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .row-2{
   width: 45%;
@@ -117,11 +118,8 @@ img{
   text-align: center;
   color: #fff;
 }
-@media screen and (max-width: 550px) and (max-width: 900px) {
 
-}
-
-@media screen and (max-width: 550px){
+@media screen and (max-width: 400px){
   
   .show-menu-btn,.hide-menu-btn{
     display: block;
@@ -155,5 +153,18 @@ img{
   #pt{
     border-radius: 10px;
     max-width: 70%;
+  }
+  .me,.int{
+    font-size: 17px;
+    margin: 0px 30px; 
+    padding-top: 2em;
+    text-align: center;
+    color: #fff;
+  }
+  p{
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+    font-size: 15px;
   }
 }
