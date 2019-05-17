@@ -54,14 +54,14 @@ html,body{
         border: 2px solid #f1f1f1;
         max-width: 55%;
         position: absolute;
-        padding: 10px;
+        padding: 5px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -80%);
     }
     .button{
         position: absolute;
-        top: 65%;
+        top: 68%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
