@@ -1,0 +1,103 @@
+html,body{
+    background-image: url(/WebProject/image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    height: 100px;
+    background: #34495e; 
+    padding: 0 20px;
+    color: fff;
+  }
+  .clock{
+    color: #fff;
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+  }
+  .menu{
+    float: right;
+    line-height: 100px;
+  }
+  .menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: 0.4s;
+  }
+  
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+    color: #fe6931;
+  }
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    grid-gap: 1rem;
+    margin: 20px;
+  }
+  .box{
+
+  }
+  img{
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 30px 0px;
+  }
+  @media screen and (max-width: 550px){
+      
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background: #333;   
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0px;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}  
