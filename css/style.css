@@ -116,8 +116,13 @@ img{
   text-align: center;
   color: #fff;
 }
+main{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  margin: 20px;
+}
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
 
   .fix2{
     display: flex;
