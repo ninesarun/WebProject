@@ -64,10 +64,20 @@ html,body{
   p{
     padding: 15px;
   }
+  h2{
+      color: lightsteelblue;
+  }
   .box{
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4); 
     padding: 10px;
+    color: #fff;
+  }
+  .box:hover{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(1, 133, 173);
+    transition: 0.6s ease
   }
   img{
       max-width: 100%;
