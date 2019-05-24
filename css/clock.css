@@ -123,6 +123,14 @@ body{
         margin-right: auto;
       
       }
+      footer{
+        width: 90%;
+        max-width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+        margin-top: 250px;
+        padding: 0px 20px 0px 20px;
+      }
       #clock{
         font-weight: 100;
         font-size: 75px;

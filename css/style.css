@@ -84,9 +84,15 @@ p{
 }
 .row-2{
   flex: 1;
+  padding: 0px 0px 0px 50px;
 }
 .row-3{
   flex: 1;
+  padding: 0px 0px 0px 0px;
+}
+.row-4{
+  flex: 1;
+  padding: 0px 50px 0px 0px;
 }
 .me1 img{
   display: block;
@@ -102,7 +108,7 @@ p{
   font-size: 40px;
 
 }
-.me,.int{
+.me,.int,.hob{
   margin: 0px 30px; 
   padding-top: 4em;
   text-align: center;
@@ -174,7 +180,7 @@ color: lightsteelblue;
     border-radius: 10px;
     max-width: 70%;
   }
-  .me,.int{
+  .me,.int,.hob{
     font-size: 23px;
     margin: 0px 30px; 
     padding-top: 2em;
@@ -183,9 +189,13 @@ color: lightsteelblue;
   }
   .about{
     color: #fff;
-    padding-top: 2em;
+    padding-top: 1.8em;
+    padding-bottom: 20px;
     font-size: 30px;
-  
+  }
+  .row-2,.row-3,.row-4{
+    flex: 1;
+    padding: 0px 20px 0px 20px;
   }
   .logo img{
     width: 55px;
@@ -195,5 +205,13 @@ color: lightsteelblue;
     margin-left: auto;
     margin-right: auto;
   
+  }
+  footer{
+    width: 90%;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    margin-top: 200px;
+    padding: 0px 20px 0px 20px;
   }
 }
