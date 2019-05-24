@@ -1,11 +1,7 @@
 body{
-    background-image: url(/WebProject/image/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
+    color: white;
 }
 *{
     margin: 0;
@@ -37,6 +33,7 @@ body{
     text-decoration: none;
     padding: 0 5px;
     transition: 0.4s;
+    font-size: 18px;
   }
   
   .show-menu-btn,.hide-menu-btn{
@@ -64,14 +61,13 @@ body{
     font-size: 100px;
     margin-top: 150px;
     margin-bottom: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
   }
   footer{
     width: 100%;
     max-width: 100%;
     margin-top: 2rem;
     text-align: center;
-    
+    margin-top: 300px;
   }
   footer .copyright{
   letter-spacing: 0.2rem;
@@ -88,11 +84,7 @@ body{
   }
   @media screen and (max-width: 550px){
   
-    .about{
-      color: #fff;
-      padding-top: 0.5em;
-    }
-  
+    
     .show-menu-btn,.hide-menu-btn{
       display: block;
     }
@@ -111,6 +103,7 @@ body{
     .menu a{
       display: block;
       padding: 20px;
+      font-size: 15px;
     }
     .hide-menu-btn{
       position: absolute;
@@ -129,5 +122,11 @@ body{
         margin-left: auto;
         margin-right: auto;
       
+      }
+      #clock{
+        font-weight: 100;
+        font-size: 75px;
+        margin-top: 150px;
+        margin-bottom: 50px;
       }
   }
