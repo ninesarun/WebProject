@@ -1,0 +1,133 @@
+body{
+    background-image: url(/WebProject/image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+.header{
+    height: 100px;
+    background: #34495e;
+    padding: 0 20px;
+    color: fff;
+  }
+  
+  .logo img{
+    width: 70px;
+    float: left;
+    height: auto;
+    margin: 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .menu{
+    float: right;
+    line-height: 100px;
+  }
+  .menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: 0.4s;
+  }
+  
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+    color: #fe6931;
+  }
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+#clock{
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+  }
+  footer{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    
+  }
+  footer .copyright{
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: lightsteelblue;
+  text-decoration: none;
+  
+  }
+  footer .copyright a{
+  text-decoration: none;
+  color: lightsteelblue;
+  }
+  @media screen and (max-width: 550px){
+  
+    .about{
+      color: #fff;
+      padding-top: 0.5em;
+    }
+  
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+    }
+    .menu {
+      position: fixed;
+      width: 70%;
+      height: 100vh;
+      background: #333;   
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0px;
+      line-height: normal;
+      transition: 0.7s;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      
+    }
+    #chk:checked ~ .menu{
+      right: 0;
+    }  
+    .logo img{
+        width: 55px;
+        float: left;
+        height: auto;
+        margin: 25px 0px;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+  }
