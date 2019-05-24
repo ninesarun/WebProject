@@ -17,11 +17,14 @@ html,body{
     padding: 0 20px;
     color: fff;
   }
-  .clock{
-    color: #fff;
-    line-height: 100px;
+  .logo img{
+    width: 70px;
     float: left;
-    text-transform: uppercase;
+    height: auto;
+    margin: 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  
   }
   .menu{
     float: right;
@@ -152,4 +155,13 @@ footer .copyright a{
     margin-right: auto;
     margin-top: 20px;
  }
+ .logo img{
+  width: 55px;
+  float: left;
+  height: auto;
+  margin: 25px 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 }  
